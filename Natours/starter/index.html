@@ -12,11 +12,13 @@
 		<title>Natours | Exciting tours for adventurous people</title>
 	</head>
 	<body>
-
 		<div class="navigation">
 			<input type="checkbox" class="navigation__checkbox" id="navi-toggle">
 
-			<label for="navi-toggle" class="navigation__button">MENU</label>
+			<label for="navi-toggle" class="navigation__button">
+				<span class="navigation__icon">&nbsp;</span>
+
+			</label>
 
 			<div class="navigation__background">&nbsp;</div>
 
@@ -161,7 +163,7 @@
 											<p class="card__price-only">Only</p>
 											<p class="card__price-value">$297</p>
 										</div>
-										<a href="#" class="btn btn--white">Book now!</a>
+										<a href="#popup" class="btn btn--white">Book now!</a>
 									</div>
 								</div>
 							</div>
@@ -193,7 +195,7 @@
 											<p class="card__price-only">Only</p>
 											<p class="card__price-value">$497</p>
 										</div>
-										<a href="#" class="btn btn--white">Book now!</a>
+										<a href="#popup" class="btn btn--white">Book now!</a>
 									</div>
 								</div>
 							</div>
@@ -225,7 +227,7 @@
 											<p class="card__price-only">Only</p>
 											<p class="card__price-value">$897</p>
 										</div>
-										<a href="#" class="btn btn--white">Book now!</a>
+										<a href="#popup" class="btn btn--white">Book now!</a>
 									</div>
 								</div>
 							</div>
@@ -365,5 +367,23 @@
 				</div>
 			</div>
 		</footer>
+
+		<div class="popup" id="popup">
+			<div class="popup__content">
+				<div class="popup__left">
+					<img src="img/nat-8.jpg" alt="Tour Photo 1" class="popup__img">
+					<img src="img/nat-9.jpg" alt="Tour Photo 2" class="popup__img">
+				</div>
+				<div class="popup__right">
+					<a href="#" class="popup__close">&times;</a>
+					<h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+					<h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
+					<p class="popup__text">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo harum excepturi obcaecati assumenda. Maiores accusantium, rerum nesciunt adipisci pariatur fugit! Velit adipisci, recusandae suscipit voluptatem id beatae magnam distinctio autem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. At aliquid, cumque iure minus soluta consequatur animi quidem qui sed distinctio maiores ducimus amet minima iste. Recusandae minus ducimus officiis voluptates? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia ex maiores tempore, consequatur delectus aperiam neque vitae, possimus autem tempora accusantium officia! Dicta omnis totam repellat minus sapiente veniam at!
+					</p>
+					<a href="#popup" class="btn btn--green">Book now</a>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
